@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+body {
+    margin: auto;
+    padding: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+    border-radius: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.submit-input, button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.center {
+    margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.adding{
+    margin-left: 1530px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error{
+    color: rgb(252, 6, 6)
 }
+
+.submit{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: rgb(31, 78, 231);
+    color: white;
+    font-weight: bold;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.tablebox {
+    margin: auto;
+    padding: 50px;
+}
+
+.streamershome{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.streamershome1{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.delete{
+    background-color: rgb(228, 18, 18);
+    font-weight: bold;
+    color: white;
+    margin: 15px;
+
+}
+
+.navbar{
+    text-align: right;
+    margin-right: 25px;
+    /* background-color: black; */
+    /* color: purple; */
+    font-family: 'Verdana';
+}
+
+/* .navbar1{
+    text-align: right;
+    margin-right: 8px;
+    margin-left: 0px;
+    color: purple;
+} */
+
+.form{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 20px;
+    border: 1px solid;
+}
+
+.details{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.details1{
+    margin: auto;
+}
+
+.link1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.games{
+    height: 120px;
+    width: 200px;
+    margin-left: 21px;
+}
+
+.spacing{
+    margin: 30px;
+}
+
+.spacing1{
+    margin-left: 50px;
+}
+
+.spacing2{
+    margin-left: 59px;
+}
+
+.spacing3{
+    margin-left: 18px;
+}
+
+.streamername{
+    color: blueviolet;
+}
+
